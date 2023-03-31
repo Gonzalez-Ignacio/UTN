@@ -1,0 +1,79 @@
+body{
+    background-image: url(bg-palm.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+
+/* Sector Perfil */
+.estas {
+    background-color: aqua;
+    border-radius: 0px 0px 12px 3px;
+}
+
+.perfil img {
+    width: 120px;
+    height: 120px;
+    padding-bottom: -10px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.7);
+}
+
+
+
+/* Sector de Links */
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.links a {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    width: 350px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;;    
+    transition: font-size 0.3s ease-out;
+}
+
+.links a:hover {
+    font-size: 120%;
+    background-color: rgb(241, 241, 241);
+}
+
+.links i {
+    color: rgb(64, 255, 144);
+    align-self: center;
+}
+
+span {
+    flex: 1;
+}
+
+
+
+/* Sector Redes */
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes a {
+    padding: 0px 50px;
+    color: black;
+    font-size: 23px;
+}
+
